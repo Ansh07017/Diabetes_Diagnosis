@@ -91,11 +91,11 @@ Your browser will automatically open to http://localhost:8501.
 
 The application takes in critical diagnostic measurements from the user, including:
 
-**Pregnancies:** Number of times pregnant
-**Glucose:** Plasma glucose concentration
-**Blood Pressure:** Diastolic blood pressure (mm Hg)
-**BMI:** Body mass index
-**Diabetes Pedigree Function:** Diabetes likelihood based on family history
+**Pregnancies:** Number of times pregnant<br>
+**Glucose:** Plasma glucose concentration<br>
+**Blood Pressure:** Diastolic blood pressure (mm Hg)<br>
+**BMI:** Body mass index<br>
+**Diabetes Pedigree Function:** Diabetes likelihood based on family history<br>
 **Age:** Age in years
 
 These inputs are fed into the pre-trained Random Forest and Logistic Regression models, which analyze the patterns and output a binary classification indicating whether the patient is at high risk for diabetes.
